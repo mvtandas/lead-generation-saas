@@ -1,0 +1,5 @@
+{
+  "name": "Lead Generation SaaS",
+  "description": "An application to gather business data based on country, city, and keyword. It analyzes contact information to calculate a 'Quality Score', displays the data in a table, and allows exporting to Excel.",
+  "requestFramePermissions": []
+}
