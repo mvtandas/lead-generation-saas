@@ -1,20 +1,65 @@
+# 🎯 Lead Generation SaaS
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+![React](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Google AI](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+**Google Gemini AI destekli, akıllı lead keşfi ve yönetim platformu.**
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## ✨ Özellikler
 
-View your app in AI Studio: https://ai.studio/apps/drive/1zUwHXcy5il52VKz42ShJ_yH9VsHgjQxK
+- 🤖 **AI Lead Keşfi** — Google Gemini ile akıllı potansiyel müşteri bulma
+- 📊 **Dashboard & Analitik** — Gerçek zamanlı istatistikler ve grafikler
+- 🔍 **Gelişmiş Filtreleme** — Sektör, lokasyon, büyüklük bazlı arama
+- ⭐ **Lead Skorlama** — AI destekli kalite değerlendirmesi
+- 📤 **Dışa Aktarma** — Excel ve CSV formatlarında export
+- 🌙 **Dark Mode** — Karanlık tema desteği
+- 🔔 **Bildirimler** — Toast notification sistemi
+- 📱 **Responsive** — Mobil uyumlu tasarım
 
-## Run Locally
+## 🛠 Teknolojiler
 
-**Prerequisites:**  Node.js
+| Teknoloji | Versiyon |
+|-----------|----------|
+| React | 19.2.0 |
+| TypeScript | 5.8.2 |
+| Vite | 6.2.0 |
+| Google Generative AI SDK | 1.29.0 |
+| Tailwind CSS | CDN |
 
+## 📁 Proje Yapısı
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```
+src/
+├── components/         # 12+ UI bileşeni
+│   ├── DashboardStats/
+│   ├── FilterControls/
+│   ├── LeadDetailModal/
+│   └── SearchForm/
+├── pages/              # Sayfa bileşenleri
+├── context/            # Auth, Theme, Toast context
+├── services/           # API servisleri
+├── hooks/              # Custom hooks
+├── utils/              # Export, validation
+└── types/              # TypeScript tanımları
+```
+
+## 🚀 Kurulum
+
+```bash
+git clone https://github.com/mvtandas/lead-generation-saas.git
+cd lead-generation-saas
+npm install
+# .env dosyasına GOOGLE_GENAI_API_KEY ekle
+npm run dev
+```
+
+## 📝 Lisans
+
+MIT
